@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/yarsanich/django-nuxt-test-app/tree/master.svg?style=svg)](https://circleci.com/gh/yarsanich/django-nuxt-test-app/tree/master)
 ## Introduction
 
 This is the repository for a tutorial that teaches how to set up a server side rendered web application using Django and Nuxt.js. 
