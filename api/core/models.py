@@ -12,7 +12,7 @@ class Recipe(models.Model):
     )
     name = models.CharField(max_length=120)
     ingredients = models.CharField(max_length=400)
-    picture = models.FileField()
+    picture = models.FileField(null=True)
     difficulty = models.CharField(choices=DIFFICULTY_LEVELS, max_length=10)
     prep_time = models.PositiveIntegerField()
     prep_guide = models.TextField()
