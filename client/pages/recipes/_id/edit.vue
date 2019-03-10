@@ -115,7 +115,7 @@ export default {
     },
     async submitRecipe() {
       let editedRecipe = this.recipe;
-      if (editedRecipe.picture.indexOf("http://") != -1) {
+      if (editedRecipe.picture.name.indexOf("http://") != -1) {
         delete editedRecipe["picture"];
       }
       const config = {
